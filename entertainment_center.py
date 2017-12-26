@@ -6,7 +6,23 @@ import media
 
 toy_story = media.Movie("Toy Story",
                         "A story of a boy and his toys that come to life",
-                        "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-12561-wt2it4_fbf729c8.jpeg?region=0,0,300,450",
-                        "https://youtu.be/KYz2wyBy3kc")
+                        "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
+                        "https://www.youtube.com/watch?v=KYz2wyBy3kc")
 
-print (toy_story.storyline)
+#print (toy_story.storyline)
+
+avatar = media.Movie("Avatar",
+                        "A marine on an alien planet",
+                        "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",
+                        "https://www.youtube.com/watch?v=5PSNL1qE6VY")
+
+#print (avatar.storyline)
+
+#avatar.show_trailer()
+
+inception = media.Movie("Inception",
+                        "A thief with the ability to enter people's dreams and steal their secrets.",
+                        "https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg",
+                        "https://www.youtube.com/watch?v=66TuSJo4dZM")
+
+inception.show_trailer()
