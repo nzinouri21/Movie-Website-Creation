@@ -1,4 +1,5 @@
 import media
+import fresh_tomatoes
 
 
 #It is good practice to call your class definition in one file
@@ -25,4 +26,26 @@ inception = media.Movie("Inception",
                         "https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg",
                         "https://www.youtube.com/watch?v=66TuSJo4dZM")
 
-inception.show_trailer()
+#inception.show_trailer()
+
+ratatouille = media.Movie("Ratatouille",
+                        "A rat in Paris that wants to become a chef!",
+                        "https://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg",
+                        "https://www.youtube.com/watch?v=c3sBBRxDAqk")
+
+
+the_big_sick = media.Movie("The big sick",
+                        "A Pakistani comic who falls in love with an American graduate student.",
+                        "https://upload.wikimedia.org/wikipedia/en/6/69/The_Big_Sick.jpg",
+                        "https://www.youtube.com/watch?v=jcD0Daqc3Yw")
+
+
+how_to_be_signle = media.Movie("How to be single",
+                        "A girl that breaks up with her long-term boyfriend and moves to New York for a fun, new life.",
+                        "https://upload.wikimedia.org/wikipedia/en/d/d1/How_To_Be_Single_Poster.jpg",
+                        "https://www.youtube.com/watch?v=RrDI4-BSovs")
+
+#Create a list or array of movies to pass to fresh_tomatoes open_movies_page function
+movies = [toy_story, avatar, inception, ratatouille, the_big_sick, how_to_be_signle]
+
+fresh_tomatoes.open_movies_page(movies)
