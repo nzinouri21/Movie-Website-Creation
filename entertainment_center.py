@@ -48,4 +48,9 @@ how_to_be_signle = media.Movie("How to be single",
 #Create a list or array of movies to pass to fresh_tomatoes open_movies_page function
 movies = [toy_story, avatar, inception, ratatouille, the_big_sick, how_to_be_signle]
 
-fresh_tomatoes.open_movies_page(movies)
+#fresh_tomatoes.open_movies_page(movies)
+
+#print media.Movie.VALID_RATINGS
+print media.Movie.__doc__
+print media.Movie.__name__
+print media.Movie.__module__
